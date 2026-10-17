@@ -1,10 +1,12 @@
 # Build output
 /build/
 
-# Runtime output
-/logs/
-/data/frames/*.png
-/data/frames/*.jpg
+# Ignore contents of runtime directories, but keep the dirs themselves
+/logs/*
+!/logs/.gitkeep
+
+/data/frames/*
+!/data/frames/.gitkeep
 
 # Editor
 *.swp
@@ -16,10 +18,3 @@
 *.o
 *.a
 *.so
-
-# Ignore the contents of these runtime directories
-/logs/*
-!/logs/.gitkeep
-
-/data/frames/*
-!/data/frames/.gitkeep
