@@ -1,0 +1,25 @@
+# Build output
+/build/
+
+# Runtime output
+/logs/
+/data/frames/*.png
+/data/frames/*.jpg
+
+# Editor
+*.swp
+*~
+.vscode/
+.idea/
+
+# Compiled
+*.o
+*.a
+*.so
+
+# Ignore the contents of these runtime directories
+/logs/*
+!/logs/.gitkeep
+
+/data/frames/*
+!/data/frames/.gitkeep

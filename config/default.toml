@@ -1,0 +1,12 @@
+# Victreebel configuration
+
+[llm]
+provider = "deepseek"
+# api_key = ""      # fill in later
+# base_url = ""
+
+[capture]
+# url_region_x = 0
+# url_region_y = 0
+# url_region_w = 800
+# url_region_h = 30
